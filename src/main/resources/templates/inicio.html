@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Página Principal</title>
+</head>
+<body>
+<h1>Bienvenido</h1>
+<p>Opción seleccionada: <span th:text="${opcion}"></span></p>
+
+<a href="/inicio?opcion=1">Opción 1</a> |
+<a href="/inicio?opcion=2">Opción 2</a> |
+<a href="/inicio?opcion=3">Opción 3</a>
+</body>
+</html>
